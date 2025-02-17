@@ -1,0 +1,39 @@
+[
+    {
+        "head": "Week 1-4",
+        "description": "Advanced story telling techniques for writers: Personas, Characters & Plots",
+        "content": [
+            { "title": "Introduction", "available": false},
+            { "title": "Course overview", "available": false },
+            { "title": "Course overview", "available": true, "exam": { "question": 0, "time": 10 } },
+            { "title": "Course Exercise / Reference Files", "available": false },
+            { "title": "Code Editor Installation (Optional if you have one)", "available": false },
+            { "title": "Embedding php in HTML", "available": false }
+        ]
+    },
+    {
+        "head": "Week 5-8",
+        "description": "Advanced story telling techniques for writers: Personas, Characters & Plots",
+        "content": [
+            { "title": "Defining Functions", "available": false },
+            { "title": "Function Parameters", "available": false },
+            { "title": "Return Value From Functions", "available": true, "exam": { "question": 10, "time": 30 } },
+            { "title": "Global Variable and Scope", "available": false },
+            { "title": "Newer Way of Creating a Constant", "available": false },
+            { "title": "Constant", "available": false }
+        ]
+    },
+    {
+        "head": "Week 5-8",
+        "description": "Advanced story telling techniques for writers: Personas, Characters & Plots",
+        "content": [
+            { "title": "Defining Functions", "available": false },
+            { "title": "Function Parameters", "available": false },
+            { "title": "Return Value From Functions", "available": true, "exam": { "question": 10, "time": 30 } },
+            { "title": "Global Variable and Scope", "available": false },
+            { "title": "Newer Way of Creating a Constant", "available": false },
+            { "title": "Constant", "available": false }
+        ]
+    }
+
+]

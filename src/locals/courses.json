@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "title": "C++ Programming Basics",
+    "author": "Ali Shahin",
+    "image": "https://media.licdn.com/dms/image/v2/C4D03AQEhMrXtmJDBxw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1659351668623?e=1745452800&v=beta&t=_6S1-HxJIlbzwKdyQ83Oh6Kv2ZDzyUA3UzsVgKNCvT0",
+    "description": "Learn React fundamentals and build interactive UIs.",
+    "publishedDate": "Mar 20, 20222",
+    "duration": "6 hours",
+    "sections": [
+      {
+        "head": "Week 1 - 4",
+        "description": "Advanced story telling techniques for writers: Personas, Characters & Plots",
+        "content": [
+          { "id":1, "title": "Installation", "url": "https://www.youtube.com/watch?v=T0E84tKhbtY&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&ab_channel=AliShahin", "available": false },
+          { "id":2, "title": "Hello Visual studio", "url": "https://www.youtube.com/watch?v=TDvZ86BDTQU&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=2&ab_channel=AliShahin" , "available": false},
+          { "id":3, "title": " Input and Output", "url": "https://www.youtube.com/watch?v=hDOSuytgl9A&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=3&ab_channel=AliShahin", "available": false },
+          { "id":4, "title": "Add 2 Numbers", "url": "https://www.youtube.com/watch?v=3HvNBe4WDbU&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=4&ab_channel=AliShahin", "available": false },
+          { "id":5, "title": "Debugging - c++ programing basics", "url": "https://www.youtube.com/watch?v=k42SbQIZYuU&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=5&ab_channel=AliShahin", "available": false },
+          { "id":6, "title": "Equation Example - c++ programing basics", "url": "https://www.youtube.com/watch?v=6gnnOSn90_Q&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=6&ab_channel=AliShahin" , "available": false}
+        ]
+      },
+      {
+        "head": "Week 5 - 8",
+        "content": [
+          { "id":1, "title": "Introduction to variables - c++ programing basics", "url": "https://www.youtube.com/watch?v=l3LeIxrScAg&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=7&ab_channel=AliShahin" , "available": false},
+          { "id":2, "title": "Data Types - c++ programing basics", "url": "https://www.youtube.com/watch?v=oB34gENXkR8&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=8&ab_channel=AliShahin", "available": false },
+          { "id":3, "title": "Swap two Numbers Example - c++ programing basics", "url": "https://www.youtube.com/watch?v=c5deaHYuQ9o&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=9&ab_channel=AliShahin" , "available": false},
+          { "id":4, "title": "Print String - c++ programing basics", "url": "https://www.youtube.com/watch?v=1JM9EJVM-5s&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=10&ab_channel=AliShahin", "available": false },
+          { "id":5, "title": "Circle Area Example - c++ programing basics", "url": "https://www.youtube.com/watch?v=LHeXOQvPJb0&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=11&ab_channel=AliShahin", "available": false },
+          { "id":6, "title": "Multiplication Reminder Example - c++ programing basics", "url": "https://www.youtube.com/watch?v=xaW0-dl8_AU&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=12&ab_channel=AliShahin", "available": false }
+        ]
+      }
+    ],
+    "comments": [
+      {
+        "name": "Alice",
+        "avatar": "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "date": "2024-02-10",
+        "comment": "Great course! Very informative. Great course! Very informative Great course! Very informative Great course! Very informative."
+      },
+      {
+        "name": "Bob",
+        "avatar": "https://plus.unsplash.com/premium_photo-1689977927774-401b12d137d6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "date": "2024-02-11",
+        "comment": "I loved the project-based approach I loved the project-based approach I loved the project-based approach I loved the project-based approach I loved the project-based approach."
+      }
+    ]
+  },
+ 
+  {
+    "id": 2,
+    "title": "Way to learn ethical hacking",
+    "author": "Ali Shahin",
+    "image": "https://media.licdn.com/dms/image/v2/C4D03AQEhMrXtmJDBxw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1659351668623?e=1745452800&v=beta&t=_6S1-HxJIlbzwKdyQ83Oh6Kv2ZDzyUA3UzsVgKNCvT0",
+    "description": "Learn React fundamentals and build interactive UIs.",
+    "publishedDate": "Mar 20, 20222",
+    "duration": "6 hours",
+    "sections": [
+      {
+        "head": "Week 1 - 4",
+        "description": "Advanced story telling techniques for writers: Personas, Characters & Plots",
+        "content": [
+          { "id":1, "title": "Installation", "url": "https://www.youtube.com/watch?v=FosIDMNzaCs&list=PLv3VqjyehAoTUUQu47URtXOOIZMMl05Oz&ab_channel=AliShahin", "available": false },
+          { "id":2, "title": "Hello Visual studio", "url": "https://www.youtube.com/watch?v=TDvZ86BDTQU&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=2&ab_channel=AliShahin" , "available": false},
+          { "id":3, "title": " Input and Output", "url": "https://www.youtube.com/watch?v=hDOSuytgl9A&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=3&ab_channel=AliShahin", "available": false },
+          { "id":4, "title": "Add 2 Numbers", "url": "https://www.youtube.com/watch?v=3HvNBe4WDbU&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=4&ab_channel=AliShahin", "available": false }
+
+        ]
+      },
+      {
+        "head": "Week 5 - 8",
+        "content": [
+          { "id":1, "title": "Introduction to variables - c++ programing basics", "url": "https://www.youtube.com/watch?v=l3LeIxrScAg&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=7&ab_channel=AliShahin" , "available": false},
+          { "id":2, "title": "Data Types - c++ programing basics", "url": "https://www.youtube.com/watch?v=oB34gENXkR8&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=8&ab_channel=AliShahin", "available": false },
+          { "id":3, "title": "Swap two Numbers Example - c++ programing basics", "url": "https://www.youtube.com/watch?v=c5deaHYuQ9o&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=9&ab_channel=AliShahin" , "available": false},
+          { "id":4, "title": "Print String - c++ programing basics", "url": "https://www.youtube.com/watch?v=1JM9EJVM-5s&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=10&ab_channel=AliShahin", "available": false },
+          { "id":5, "title": "Circle Area Example - c++ programing basics", "url": "https://www.youtube.com/watch?v=LHeXOQvPJb0&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=11&ab_channel=AliShahin", "available": false },
+          { "id":6, "title": "Multiplication Reminder Example - c++ programing basics", "url": "https://www.youtube.com/watch?v=xaW0-dl8_AU&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=12&ab_channel=AliShahin", "available": false }
+        ]
+      }
+    ],
+    "comments": [
+      {
+        "name": "Alice",
+        "avatar": "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "date": "2024-02-10",
+        "comment": "Great course! Very informative. Great course! Very informative Great course! Very informative Great course! Very informative."
+      },
+      {
+        "name": "Bob",
+        "avatar": "https://plus.unsplash.com/premium_photo-1689977927774-401b12d137d6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "date": "2024-02-11",
+        "comment": "I loved the project-based approach I loved the project-based approach I loved the project-based approach I loved the project-based approach I loved the project-based approach."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Data Structure for beginner",
+    "author": "Ali Shahin",
+    "image": "https://media.licdn.com/dms/image/v2/C4D03AQEhMrXtmJDBxw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1659351668623?e=1745452800&v=beta&t=_6S1-HxJIlbzwKdyQ83Oh6Kv2ZDzyUA3UzsVgKNCvT0",
+    "description": "Learn React fundamentals and build interactive UIs.",
+    "publishedDate": "Mar 20, 20222",
+    "duration": "6 hours",
+    "sections": [
+      {
+        "head": "Week 1 - 4",
+        "description": "Advanced story telling techniques for writers: Personas, Characters & Plots",
+        "content": [
+          { "id":1, "title": "Installation", "url": "https://www.youtube.com/watch?v=Ndc67sUKMsg&list=PLv3VqjyehAoRcrpuavzqleAA2jJYk6KgU&ab_channel=AliShahin", "available": false },
+          { "id":2, "title": "Hello Visual studio", "url": "https://www.youtube.com/watch?v=TDvZ86BDTQU&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=2&ab_channel=AliShahin" , "available": false},
+          { "id":3, "title": " Input and Output", "url": "https://www.youtube.com/watch?v=hDOSuytgl9A&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=3&ab_channel=AliShahin", "available": false },
+          { "id":4, "title": "Add 2 Numbers", "url": "https://www.youtube.com/watch?v=3HvNBe4WDbU&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=4&ab_channel=AliShahin", "available": false }
+
+        ]
+      },
+      {
+        "head": "Week 5 - 8",
+        "content": [
+          { "id":1, "title": "Introduction to variables - c++ programing basics", "url": "https://www.youtube.com/watch?v=l3LeIxrScAg&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=7&ab_channel=AliShahin" , "available": false},
+          { "id":2, "title": "Data Types - c++ programing basics", "url": "https://www.youtube.com/watch?v=oB34gENXkR8&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=8&ab_channel=AliShahin", "available": false },
+          { "id":3, "title": "Swap two Numbers Example - c++ programing basics", "url": "https://www.youtube.com/watch?v=c5deaHYuQ9o&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=9&ab_channel=AliShahin" , "available": false},
+          { "id":4, "title": "Print String - c++ programing basics", "url": "https://www.youtube.com/watch?v=1JM9EJVM-5s&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=10&ab_channel=AliShahin", "available": false },
+          { "id":5, "title": "Circle Area Example - c++ programing basics", "url": "https://www.youtube.com/watch?v=LHeXOQvPJb0&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=11&ab_channel=AliShahin", "available": false },
+          { "id":6, "title": "Multiplication Reminder Example - c++ programing basics", "url": "https://www.youtube.com/watch?v=xaW0-dl8_AU&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=12&ab_channel=AliShahin", "available": false }
+        ]
+      }
+    ],
+    "comments": [
+      {
+        "name": "Alice",
+        "avatar": "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "date": "2024-02-10",
+        "comment": "Great course! Very informative. Great course! Very informative Great course! Very informative Great course! Very informative."
+      },
+      {
+        "name": "Bob",
+        "avatar": "https://plus.unsplash.com/premium_photo-1689977927774-401b12d137d6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "date": "2024-02-11",
+        "comment": "I loved the project-based approach I loved the project-based approach I loved the project-based approach I loved the project-based approach I loved the project-based approach."
+      }
+    ]
+  }
+ 
+]
