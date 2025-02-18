@@ -12,23 +12,23 @@
         "head": "Week 1 - 4",
         "description": "Advanced story telling techniques for writers: Personas, Characters & Plots",
         "content": [
-          { "id":1, "title": "Installation", "url": "https://www.youtube.com/watch?v=T0E84tKhbtY&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&ab_channel=AliShahin", "available": false },
-          { "id":2, "title": "Hello Visual studio", "url": "https://www.youtube.com/watch?v=TDvZ86BDTQU&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=2&ab_channel=AliShahin" , "available": false},
-          { "id":3, "title": " Input and Output", "url": "https://www.youtube.com/watch?v=hDOSuytgl9A&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=3&ab_channel=AliShahin", "available": false },
-          { "id":4, "title": "Add 2 Numbers", "url": "https://www.youtube.com/watch?v=3HvNBe4WDbU&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=4&ab_channel=AliShahin", "available": false },
-          { "id":5, "title": "Debugging - c++ programing basics", "url": "https://www.youtube.com/watch?v=k42SbQIZYuU&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=5&ab_channel=AliShahin", "available": false },
-          { "id":6, "title": "Equation Example - c++ programing basics", "url": "https://www.youtube.com/watch?v=6gnnOSn90_Q&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=6&ab_channel=AliShahin" , "available": false}
+          { "id":1, "title": "Installation", "url": "https://www.youtube.com/embed/T0E84tKhbtY", "available": false },
+          { "id":2, "title": "Hello Visual studio", "url": "https://www.youtube.com/embed/TDvZ86BDTQU" , "available": false},
+          { "id":3, "title": " Input and Output", "url": "https://www.youtube.com/embed/hDOSuytgl9A", "available": false },
+          { "id":4, "title": "Add 2 Numbers", "url": "https://www.youtube.com/embed/3HvNBe4WDbU", "available": false },
+          { "id":5, "title": "Debugging - c++ programing basics", "url": "https://www.youtube.com/embed/k42SbQIZYuU", "available": false },
+          { "id":6, "title": "Equation Example - c++ programing basics", "url": "https://www.youtube.com/embed/6gnnOSn90_Q" , "available": false}
         ]
       },
       {
         "head": "Week 5 - 8",
         "content": [
-          { "id":1, "title": "Introduction to variables - c++ programing basics", "url": "https://www.youtube.com/watch?v=l3LeIxrScAg&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=7&ab_channel=AliShahin" , "available": false},
-          { "id":2, "title": "Data Types - c++ programing basics", "url": "https://www.youtube.com/watch?v=oB34gENXkR8&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=8&ab_channel=AliShahin", "available": false },
-          { "id":3, "title": "Swap two Numbers Example - c++ programing basics", "url": "https://www.youtube.com/watch?v=c5deaHYuQ9o&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=9&ab_channel=AliShahin" , "available": false},
-          { "id":4, "title": "Print String - c++ programing basics", "url": "https://www.youtube.com/watch?v=1JM9EJVM-5s&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=10&ab_channel=AliShahin", "available": false },
-          { "id":5, "title": "Circle Area Example - c++ programing basics", "url": "https://www.youtube.com/watch?v=LHeXOQvPJb0&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=11&ab_channel=AliShahin", "available": false },
-          { "id":6, "title": "Multiplication Reminder Example - c++ programing basics", "url": "https://www.youtube.com/watch?v=xaW0-dl8_AU&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=12&ab_channel=AliShahin", "available": false }
+          { "id":7, "title": "Introduction to variables - c++ programing basics", "url": "https://www.youtube.com/embed/l3LeIxrScAg?si=tfl0BT3pZMhN84_j" , "available": false},
+          { "id":8, "title": "Data Types - c++ programing basics", "url": "https://www.youtube.com/embed/oB34gENXkR8?si=mvNPaJVuSGBH_FN7", "available": false },
+          { "id":9, "title": "Swap two Numbers Example - c++ programing basics", "url": "https://www.youtube.com/embed/c5deaHYuQ9o?si=tCKpyzHxPFCmKifb" , "available": false},
+          { "id":10, "title": "Print String - c++ programing basics", "url": "https://www.youtube.com/embed/1JM9EJVM-5s?si=pGaKDuLW3DumHa9A", "available": false },
+          { "id":11, "title": "Circle Area Example - c++ programing basics", "url": "https://www.youtube.com/embed/LHeXOQvPJb0?si=KtyzuRCvLo4n2pkz", "available": false },
+          { "id":12, "title": "Multiplication Reminder Example - c++ programing basics", "url": "https://www.youtube.com/embed/xaW0-dl8_AU?si=FbpLqNZv3FQexkJl", "available": false }
         ]
       }
     ],
@@ -47,7 +47,6 @@
       }
     ]
   },
- 
   {
     "id": 2,
     "title": "Way to learn ethical hacking",
@@ -61,22 +60,22 @@
         "head": "Week 1 - 4",
         "description": "Advanced story telling techniques for writers: Personas, Characters & Plots",
         "content": [
-          { "id":1, "title": "Installation", "url": "https://www.youtube.com/watch?v=FosIDMNzaCs&list=PLv3VqjyehAoTUUQu47URtXOOIZMMl05Oz&ab_channel=AliShahin", "available": false },
-          { "id":2, "title": "Hello Visual studio", "url": "https://www.youtube.com/watch?v=TDvZ86BDTQU&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=2&ab_channel=AliShahin" , "available": false},
-          { "id":3, "title": " Input and Output", "url": "https://www.youtube.com/watch?v=hDOSuytgl9A&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=3&ab_channel=AliShahin", "available": false },
-          { "id":4, "title": "Add 2 Numbers", "url": "https://www.youtube.com/watch?v=3HvNBe4WDbU&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=4&ab_channel=AliShahin", "available": false }
+          { "id":1, "title": "ethical hacking", "url": "https://www.youtube.com/embed/FosIDMNzaCs?si=PVq7-NZ44HhstHAP", "available": false },
+          { "id":2, "title": "ethical hacking 2", "url": "https://www.youtube.com/embed/jA0oce9QQn0?si=8fRCKGcRGKseaytP" , "available": false},
+          { "id":3, "title": " Data Science", "url": "https://www.youtube.com/embed/2EWPMOZLvoQ?si=vaBmboR1gBoIWnXb", "available": false },
+          { "id":4, "title": "Software Testing", "url": "https://www.youtube.com/embed/Zw7WlXKy6ZY?si=ELFH3Uyvbu1OxMN5", "available": false }
 
         ]
       },
       {
         "head": "Week 5 - 8",
         "content": [
-          { "id":1, "title": "Introduction to variables - c++ programing basics", "url": "https://www.youtube.com/watch?v=l3LeIxrScAg&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=7&ab_channel=AliShahin" , "available": false},
-          { "id":2, "title": "Data Types - c++ programing basics", "url": "https://www.youtube.com/watch?v=oB34gENXkR8&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=8&ab_channel=AliShahin", "available": false },
-          { "id":3, "title": "Swap two Numbers Example - c++ programing basics", "url": "https://www.youtube.com/watch?v=c5deaHYuQ9o&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=9&ab_channel=AliShahin" , "available": false},
-          { "id":4, "title": "Print String - c++ programing basics", "url": "https://www.youtube.com/watch?v=1JM9EJVM-5s&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=10&ab_channel=AliShahin", "available": false },
-          { "id":5, "title": "Circle Area Example - c++ programing basics", "url": "https://www.youtube.com/watch?v=LHeXOQvPJb0&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=11&ab_channel=AliShahin", "available": false },
-          { "id":6, "title": "Multiplication Reminder Example - c++ programing basics", "url": "https://www.youtube.com/watch?v=xaW0-dl8_AU&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=12&ab_channel=AliShahin", "available": false }
+          { "id":1, "title": "Business analysis", "url": "https://www.youtube.com/embed/TMS341W3Lj0?si=ozzHj5DxhLw-utoh" , "available": false},
+          { "id":2, "title": "tester vs developer", "url": "https://www.youtube.com/embed/SRa1ZqMtZKk?si=5QMOeYc1G7RHqK-a", "available": false },
+          { "id":3, "title": "mobile application", "url": "https://www.youtube.com/embed/3wJ_3ndeG9k?si=KozXSAQTumQjhezW" , "available": false},
+          { "id":4, "title": "web application", "url": "https://www.youtube.com/embed/lELwc6vQaAw?si=yzT9hfuiC-SaC-cV", "available": false },
+          { "id":5, "title": "Artificial Intelligence", "url": "https://www.youtube.com/embed/LC0omtcnx1A?si=oHP7YzxgZMvq7UFt", "available": false },
+          { "id":6, "title": "Artificial Intelligence 2", "url": "https://www.youtube.com/embed/1xRQRVJIJL8?si=ZUfv_n8pA0-yeaJ0", "available": false }
         ]
       }
     ],
@@ -108,24 +107,15 @@
         "head": "Week 1 - 4",
         "description": "Advanced story telling techniques for writers: Personas, Characters & Plots",
         "content": [
-          { "id":1, "title": "Installation", "url": "https://www.youtube.com/watch?v=Ndc67sUKMsg&list=PLv3VqjyehAoRcrpuavzqleAA2jJYk6KgU&ab_channel=AliShahin", "available": false },
-          { "id":2, "title": "Hello Visual studio", "url": "https://www.youtube.com/watch?v=TDvZ86BDTQU&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=2&ab_channel=AliShahin" , "available": false},
-          { "id":3, "title": " Input and Output", "url": "https://www.youtube.com/watch?v=hDOSuytgl9A&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=3&ab_channel=AliShahin", "available": false },
-          { "id":4, "title": "Add 2 Numbers", "url": "https://www.youtube.com/watch?v=3HvNBe4WDbU&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=4&ab_channel=AliShahin", "available": false }
+          { "id":1, "title": "Installation", "url": "https://www.youtube.com/embed/Ndc67sUKMsg?si=Eo_WQ6EvrUj3L-vE", "available": false },
+          { "id":2, "title": "Hello Visual studio", "url": "https://www.youtube.com/embed/k8bUlmcwGBE?si=np0awIL6xNYb3d2i" , "available": false},
+          { "id":3, "title": " Input and Output", "url": "https://www.youtube.com/embed/7J-iMVriCWU?si=WLHPxBfLYFGu-eFn", "available": false },
+          { "id":4, "title": "Add 2 Numbers", "url": "https://www.youtube.com/embed/INeg9NLbIUo?si=rDgpCVOKFJDe_dp9", "available": false },
+          { "id":5, "title": "Add 2 Numbers", "url": "https://www.youtube.com/embed/Y75RSpFwu7o?si=s0M0lFlYYf182z1d", "available": false }
 
         ]
-      },
-      {
-        "head": "Week 5 - 8",
-        "content": [
-          { "id":1, "title": "Introduction to variables - c++ programing basics", "url": "https://www.youtube.com/watch?v=l3LeIxrScAg&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=7&ab_channel=AliShahin" , "available": false},
-          { "id":2, "title": "Data Types - c++ programing basics", "url": "https://www.youtube.com/watch?v=oB34gENXkR8&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=8&ab_channel=AliShahin", "available": false },
-          { "id":3, "title": "Swap two Numbers Example - c++ programing basics", "url": "https://www.youtube.com/watch?v=c5deaHYuQ9o&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=9&ab_channel=AliShahin" , "available": false},
-          { "id":4, "title": "Print String - c++ programing basics", "url": "https://www.youtube.com/watch?v=1JM9EJVM-5s&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=10&ab_channel=AliShahin", "available": false },
-          { "id":5, "title": "Circle Area Example - c++ programing basics", "url": "https://www.youtube.com/watch?v=LHeXOQvPJb0&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=11&ab_channel=AliShahin", "available": false },
-          { "id":6, "title": "Multiplication Reminder Example - c++ programing basics", "url": "https://www.youtube.com/watch?v=xaW0-dl8_AU&list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG&index=12&ab_channel=AliShahin", "available": false }
-        ]
       }
+     
     ],
     "comments": [
       {
@@ -142,5 +132,4 @@
       }
     ]
   }
- 
 ]

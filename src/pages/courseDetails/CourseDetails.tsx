@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom'
 import Accordion from '../../components/Accordion'
-import { VideoProps } from "../../types/types";
+import { VideoProps, VideoItem, Video } from "../../types/types";
 import ProgressBar from '../../components/ProgressBar'
-import { useLocation } from 'react-router-dom'
+import { useLocation, useParams } from 'react-router-dom'
 import { Facebook, Twitter, Linkedin, Youtube, Clock3, LibraryBig, User, Globe, MoveRight, ChevronRight } from 'lucide-react'
 import VideoPlayer from "../../components/VideoPlayer"
 import courses from "../../locals/courses.json";
@@ -12,27 +12,42 @@ import CommentItem from '../../components/CommentItem'
 
 function CourseDetails() {
     const [courseItem, setCourseItem] = useState<Course | null>();
-    const [selectedVideo, setSelectedVideo] = useState<VideoProps | null>(null);
+    const [currentVideoIndex, setCurrentVideoIndex] = useState({ sectionIndex: 0, videoIndex: 0 });
+    const [currentVideo, setCurrentVideo] = useState<VideoItem | null>();
     const location = useLocation()
+    const { courseId: id = "" } = useParams()
     const paths = location.pathname.split("/").filter(Boolean);
-    const id = Number(paths[2]);
 
     useEffect(() => {
         const findById = (arr: Course[], id: number) => {
             return arr.find(item => item.id === id);
         };
-        const result = findById(courses, id);
+        const result = findById(courses, +id);
         setCourseItem(result || null);
     }, [id]);
 
+    const endedHandler = () => {
+        const currentSection = courseItem?.sections?.[currentVideoIndex.sectionIndex];
+        const currentSectionContent = currentSection?.content;
+        const currentVideoID = currentSectionContent?.[currentVideoIndex.videoIndex].id;
+        const lastSectionContentVideoID = currentSectionContent?.[currentSectionContent.length - 1].id;
+        const isVideoLastInSection = currentVideoID === lastSectionContentVideoID;
+        const isSectionLastSection = currentVideoIndex.sectionIndex + 1 === courseItem?.sections.length;
+        console.log(isVideoLastInSection);
 
-    console.log(courseItem?.sections[0].content[0]);
+        if (!(isVideoLastInSection && isSectionLastSection)) setCurrentVideoIndex({
+            sectionIndex: isVideoLastInSection ? currentVideoIndex.sectionIndex + 1 : currentVideoIndex.sectionIndex,
+            videoIndex: isVideoLastInSection ? 0 : currentVideoIndex.videoIndex + 1
+        })
+    }
 
+    useEffect(() => {
+        setCurrentVideo(courseItem?.sections?.[currentVideoIndex.sectionIndex]?.content?.[currentVideoIndex.videoIndex] || null);
+    }, [courseItem?.sections, currentVideoIndex.sectionIndex, currentVideoIndex.videoIndex]);
 
     return (
         <div>
             <div className='courseDetailsHead bg-slate-50 flex flex-col px-[38px] py-1 '>
-
                 <div className='helmet'>
                     <div className="flex items-center text-sm">
                         <span>Home</span>
@@ -64,8 +79,8 @@ function CourseDetails() {
 
                     <div className='w-full md:w-[58%] flex flex-col py-3'>
                         <div className='videoFrame w-full h-[527px]  rounded-md'>
-                            {courseItem?.sections[0].content[0] && (
-                                <VideoPlayer video={courseItem.sections[0].content[0]} />
+                            {currentVideo?.id && (
+                                <VideoPlayer video={{ id: currentVideo?.id, url: currentVideo?.url || "", title: currentVideo?.title || "" }} handler={endedHandler} />
                             )}
                         </div>
 
@@ -90,7 +105,6 @@ function CourseDetails() {
                             <h3 className='mb-[20px] font-semibold text-xl'>Course Materials</h3>
                             <div className='courseMartialsContent bg-white rounded-sm  shadow-[0px_0px_30px_0px_rgba(0,0,13,0.22)] py-[20px] px-[30px] flex justify-between w-full'>
                                 <div className='sm:w-[40%] flex flex-col w-full'>
-
                                     <ul>
                                         <li className='flex justify-between items-center border-b border-b-gray-300 py-1 mb-2' >
 
@@ -201,8 +215,7 @@ function CourseDetails() {
                                             url: lesson.url,
                                         }))
                                     })) ?? []}
-
-
+                                    onVideoSelect={setCurrentVideoIndex}
                                 />
                             </div>
                         </div>

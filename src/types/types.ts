@@ -5,10 +5,10 @@ export interface Exam {
 }
 
 export interface AccordionItemContent {
-    video?: VideoItem;
-    title: string;
-    available: boolean;
-    exam?: Exam;
+    title: string,
+    available: boolean,
+    id: number,
+    url: string,
 }
 
 export interface AccordionItem {
@@ -17,9 +17,10 @@ export interface AccordionItem {
     content: AccordionItemContent[];
 }
 export interface VideoItem {
-    id: number;
-    title: string;
-    available: boolean;
+    id?: number;
+    title?: string;
+    url?: string;
+    available?: boolean;
     exam?: {
         question: string;
         time: number;
@@ -27,6 +28,7 @@ export interface VideoItem {
 }
 export interface AccordionProps {
     section: AccordionItem[];
+    onVideoSelect: any;
 
 }
 
@@ -43,6 +45,7 @@ export interface Progress {
 
 export interface VideoPlayerProps {
     video: Video;
+    handler: () => void;
 }
 
 

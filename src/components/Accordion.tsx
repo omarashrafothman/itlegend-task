@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
-import { AccordionProps, VideoItem } from "../types/types"
-import { Newspaper, LockKeyhole, LockKeyholeOpen } from "lucide-react";
+import { AccordionProps } from "../types/types"
+import { Newspaper, LockKeyhole } from "lucide-react";
 
-const Accordion = ({ section }: AccordionProps) => {
+const Accordion = ({ section, onVideoSelect }: AccordionProps) => {
     const [activeIndex, setActiveIndex] = useState<number | null>(null);
     const [isLargeScreen, setIsLargeScreen] = useState<boolean>(window.innerWidth >= 1024);
 
@@ -22,16 +22,11 @@ const Accordion = ({ section }: AccordionProps) => {
         return () => window.removeEventListener("resize", handleResize);
     }, []);
 
-
     const toggleAccordion = (index: number) => {
         if (!isLargeScreen) {
             setActiveIndex(prevIndex => (prevIndex === index ? null : index));
         }
     };
-
-    // const handleVideoClick = (video: VideoItem) => {
-    //     setSelectedVideo(video);
-    // };
 
     return (
         <div className="max-w-lg mx-auto   ">
@@ -77,22 +72,17 @@ const Accordion = ({ section }: AccordionProps) => {
                         <div className="px-4  text-sm mb-6">
                             <ul className="list-disc list-inside">
                                 {item.content.map((contentItem, i) => (
-                                    <li key={i} className="justify-between items-center py-3 flex border-b border-b-gray-300" >
-                                        <div className="flex gap-2 items-center">
+                                    <button key={i} className="justify-between items-center py-3 flex border-b border-b-gray-300 w-full cursor-pointer" onClick={() => onVideoSelect({ sectionIndex: index, videoIndex: i })}>
+                                        <span className="flex gap-2 items-center">
                                             <Newspaper className="w-4 h-4" />
                                             <p className="text-sm">{contentItem.title}</p>
-                                        </div>
-                                        <div>
-                                            {!contentItem.available ? (
+                                        </span>
+                                        <span>
+                                            {!contentItem.available ?
                                                 <LockKeyhole className="w-4 h-4" />
-                                            ) : (
-                                                <div className="flex flex-wrap items-center gap-1">
-                                                    <span className="bg-green-200 rounded-md text-green-600 px-2 py-1">{contentItem.exam?.question} Questions</span>
-                                                    <span className="bg-red-200 rounded-md text-red-600 px-2 py-1">{contentItem.exam?.time} Minutes</span>
-                                                </div>
-                                            )}
-                                        </div>
-                                    </li>
+                                                : ""}
+                                        </span>
+                                    </button>
                                 ))}
                             </ul>
                         </div>

@@ -1,18 +1,18 @@
 import React, { useState, useEffect, useRef } from "react";
-import ReactPlayer from "react-player";
+import ReactPlayer from "react-player/youtube";
 import { Progress, VideoPlayerProps } from "../types/types";
 
 
 
-const VideoPlayer: React.FC<VideoPlayerProps> = ({ video }) => {
-    const [watched, setWatched] = useState<boolean>(() => {
-        const storedData = JSON.parse(localStorage.getItem("watchedVideos") || "{}");
-        return video.id ? storedData[video.id] || false : false;
-    });
-
+const VideoPlayer: React.FC<VideoPlayerProps> = ({ video, handler }) => {
+    const [watched, setWatched] = useState<boolean>(false);
     const [isMobile, setIsMobile] = useState<boolean>(window.innerWidth <= 768);
     const playerRef = useRef<HTMLDivElement | null>(null);
+    const [currentUrl, setCurrentUrl] = useState(video.url);
 
+    useEffect(() => {
+        setCurrentUrl(video.url);
+    }, [video.url]);
     useEffect(() => {
         const handleResize = () => {
             setIsMobile(window.innerWidth <= 768);
@@ -29,6 +29,12 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({ video }) => {
         }
     }, [isMobile]);
 
+    useEffect(() => {
+        setWatched(() => {
+            const storedData = JSON.parse(localStorage.getItem("watchedVideos") || "{}");
+            return video.id ? storedData[video.id] || false : false;
+        })
+    }, [video.id])
 
     const handleProgress = (progress: Progress) => {
         if (progress.played >= 0.8 && !watched && video.id) {
@@ -38,19 +44,20 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({ video }) => {
             localStorage.setItem("watchedVideos", JSON.stringify(updatedWatched));
         }
     };
+    console.log(video.url)
 
     return (
-        <div className=" w-full h-full  " ref={playerRef} >
+        <div className=" w-full h-full" data-url={video.url} ref={playerRef} >
             <h2 className="text-lg font-semibold flex items-center">
-
                 {watched && <span className="ml-2 text-green-600 text-sm font-bold">(Watched ✅)</span>}
             </h2>
             <ReactPlayer
-                url={video.url}
+                url={currentUrl}
                 controls
                 width="100%"
                 height="100%"
                 onProgress={handleProgress}
+                onEnded={handler}
             />
         </div>
     );
